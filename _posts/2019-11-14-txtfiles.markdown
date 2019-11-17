@@ -1,0 +1,8 @@
+---
+layout: post
+title: 'What is robot.txt and humans.txt and how i configured it for my site?'
+date:   2019-11-15
+categories: txt humans robots
+---
+
+some content
