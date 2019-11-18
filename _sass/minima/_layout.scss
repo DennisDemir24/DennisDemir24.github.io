@@ -50,6 +50,12 @@
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
+  @include media-query($on-palm) {
+    .site-nav {
+      background-color: #424242;
+    }
+  }
+
   .nav-trigger {
       display: none;
   }
@@ -68,6 +74,10 @@
     color: $text-color;
     line-height: $base-line-height;
     font-size: 22px;
+
+    @include media-query($on-palm) {
+      color: #111;
+    }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -281,6 +291,15 @@
 .post-content {
   margin-bottom: $spacing-unit;
   text-align: center;
+  padding-bottom: 6rem;
+
+  img {
+    @media screen and (max-width: 380px) {
+      position: absolute;
+      left: 124px;
+      width: 120px;
+    }
+  }
 
   h2 {
     @include relative-font-size(2);
