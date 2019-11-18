@@ -5,4 +5,10 @@ date:   2019-11-15
 categories: txt humans robots
 ---
 
-some content
+Robots.txt files is a file that controls how the search engine access your website. The file contains directives which give directions to search engines which pages are to allow and disallow search engine access. It can block sensitive information on your page.
+I set my robots.txt up to block google ads bot.
+
+-----------------
+
+humans.txt is just a text file where you can put whatever text you want. Google have added a text that say that this page (google.com) is created by developers at google.
+In my text file I added some text stating my name and that I study at this program and the site is created with jekyll.
