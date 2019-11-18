@@ -9,5 +9,7 @@ I implemented comments for my blog posts using a tool called Disqus. You have to
 
 -------
 
-OpenGraph
+OpenGraph is a tech created by facebook, that allows integration between Facebook and its user data and a website. By adding Open graph tags to your page content, you can identify which elements of your page you want to show when someone shares your website.
+The og:image tage specifies what image to show when someone shares your page on facebook.
+I use open graph to show the title, url, type and image when someone share my posts page to facebook.
 

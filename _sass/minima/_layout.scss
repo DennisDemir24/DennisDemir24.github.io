@@ -5,6 +5,7 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  background-color: $grey-color-dark;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -16,6 +17,12 @@
       font-size: 18px;
       letter-spacing: .5px;
     }
+  }
+
+  img {
+    height: 60px;
+    position: absolute;
+    left: 20rem;
   }
 }
 
@@ -49,6 +56,12 @@
 
   .menu-icon {
     display: none;
+  }
+
+  .trigger {
+    .page-link {
+      color: $background-color;
+    }
   }
 
   .page-link {
@@ -129,11 +142,13 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-color: $grey-color-dark;
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: $background-color;
 }
 
 .contact-list,
@@ -199,6 +214,11 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+
+  img {
+    width: 250px;
+    height: auto;
+  }
 }
 
 .page-heading {
@@ -229,10 +249,12 @@
 
 .post-link {
   display: block;
+  color: $title-color !important;
   @include relative-font-size(1.5);
 
   &:hover {
     text-decoration: none;
+    color: $text-color !important;
   }
 }
 
